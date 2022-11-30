@@ -8,7 +8,7 @@ form.addEventListener("submit", function(e){
     console.log(CampoB)
     e.preventDefault();
 
-    if(CampoA.value > CampoB.value){
+    if(CampoA.valueAsNumber > CampoB.valueAsNumber){
         alert("O Campo A não pode ser maior que o Campo B")
 }else{
     alert("Preenchimneto correto");
